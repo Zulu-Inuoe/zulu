@@ -16,6 +16,7 @@ theme = "LoveIt"
     hugo = true
     author = true
     since = 2020
+    license = '<a rel="license external nofollow noopener noreffer" href=https://opensource.org/licenses/MIT" target="_blank">MIT</a>'
 
   [params.home]
     rss = 10
