@@ -1,4 +1,4 @@
-baseURL = "http://zulu.inuoe.com/"
+baseURL = "https://zulu.inuoe.com/"
 defaultContentLanguage = "en-us"
 languageCode = "en-us"
 title = "Some Catchy Title"
