@@ -1,3 +1,56 @@
 baseURL = "http://zulu.inuoe.com/"
+defaultContentLanguage = "en-us"
 languageCode = "en-us"
-title = "Zulu's Personal Website"
+title = "Some Catchy Title"
+
+theme = "LoveIt"
+
+[params]
+  version = "0.2.X"
+  keywords = ["Programming", "Blog"]
+  defaultTheme = "auto"
+  gitRepo = "https://github.com/Zulu-Inuoe/zulu.git"
+
+  [params.footer]
+    enable = true
+    hugo = true
+    author = true
+    since = 2020
+
+  [params.home]
+    rss = 10
+
+    [params.home.profile]
+      enable = true
+      gravatarEmail = "zulu.inuoe@gmail.com"
+      title = "Wilfredo Velázquez-Rodríguez (Will)"
+      subtitle = ""
+      social = true
+
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  [params.social]
+    github = "Zulu-Inuoe"
+    linkedin = "wilfredovelazquez"
+    email = "zulu.inuoe@gmail.com"
+    rss = true
+
+[author]
+  name = "Will"
+  email = "zulu.inuoe@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    title = ""
+    weight = 1
+
+[markup]
+  [markup.highlight]
+    noClasses = false
