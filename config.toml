@@ -11,6 +11,9 @@ theme = "LoveIt"
   defaultTheme = "auto"
   gitRepo = "https://github.com/Zulu-Inuoe/zulu.git"
 
+  [params.page]
+    fontawesome = true
+
   [params.footer]
     enable = true
     hugo = true
@@ -44,13 +47,21 @@ theme = "LoveIt"
 
 [menu]
   [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+    weight = 1
+  [[menu.main]]
     identifier = "posts"
     pre = ""
     post = ""
     name = "Posts"
     url = "/posts/"
     title = ""
-    weight = 1
+    weight = 2
 
 [markup]
   [markup.highlight]
